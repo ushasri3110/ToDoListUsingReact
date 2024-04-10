@@ -1,0 +1,55 @@
+body{
+  background-color: rgba(2, 149, 154, 0.95);
+}
+h1{
+  text-align: center;
+  font-size: 300%;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-container input[type="text"]{
+  width: 300px;
+  height: 30px;
+  font-size: 30px;
+}
+.input-container button{
+  border-radius: 50%;
+  margin: 1%;
+  padding: 10px 20px;
+  font-size: 170%;
+  background-color: rgb(209, 5, 5);
+  color: white;
+  font-weight: bolder;
+}
+.todolist-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todolist{
+  display: flex;
+  width: 500px;
+  background-color: white;
+  font-size: 1.5rem;
+  padding: 0px 8px;
+  font-weight: bolder;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.actions{
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+.actions button{
+  background-color: red;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 10px;
+}
